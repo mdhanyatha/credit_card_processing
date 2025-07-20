@@ -1,0 +1,29 @@
+<!-- Frontend: Login Page (index.html) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Processing - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="../backend/login.php" method="POST">
+            <label>Email:</label>
+            <input type="email" name="email" required>
+            <label>Password:</label>
+            <input type="password" name="password" required>
+            <label>Select Role:</label>
+            <select name="role" required>
+                <option value="customer">Customer</option>
+                <option value="vendor">Vendor</option>
+                <option value="admin">Admin</option>
+            </select>
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="register.html">Register</a></p>
+    </div>
+</body>
+</html>

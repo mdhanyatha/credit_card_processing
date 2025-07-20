@@ -1,0 +1,75 @@
+/* Updated & Enhanced CSS Styling (style.css) */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('background.jpg') no-repeat center center fixed; /* Add a background image */
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+    color: black;
+}
+
+.container {
+    width: 400px;
+    background: rgba(255, 255, 255, 0.95); /* Semi-transparent background */
+    padding: 25px;
+    margin: auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 90%;
+    padding: 11px;
+    margin: 11px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: border-color 0.2s ease-in-out;
+}
+
+input:focus, select:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+button {
+    background: linear-gradient(120deg, #ff7e5f, #feb47b);
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: linear-gradient(120deg, #feb47b, #ff7e5f);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+a {
+    color: #f1c40f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
