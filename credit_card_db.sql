@@ -115,14 +115,15 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `phone`, `address`, `state`, `pincode`, `income`, `aadhar`, `pan`, `password`, `role`) VALUES
-(1, NULL, 'customer1@gmail.com', '9876543210', 'Mumbai, India', 'Maharashtra', '400001', 500000.00, '123412341234', 'ABCDE1234F', 'password123', 'customer'),
-(2, NULL, 'vendor1@gmail.com', '8765432109', 'Delhi, India', 'Delhi', '110001', 0.00, '567856785678', 'XYZDE5678G', 'password456', 'vendor'),
-(3, NULL, 'admin1@gmail.com', '7654321098', 'Bangalore, India', 'Karnataka', '560001', 0.00, '987698769876', 'LMNDE9876H', 'password789', 'admin'),
-(5, NULL, 'mdhanyathasreeraj@gmail.com', '7981798001', 'Chikahagade Gate Banglore', 'Karnataka', '562106', 120000.00, '471134125638', 'MMZPK0466P', '$2y$10$QRlUUvwBAzuf05pMUwoyaOPRHPFO/ymxmkaY9vJhKkNUXhiSviBZO', 'vendor'),
-(7, NULL, 'mvsreeraj.ece@pvkkit.ac.in', '7801078333', 'Chikahagade Gate Banglore', 'Karnataka', '562106', 120000.00, '461142123496', 'MMZPK0466R', '$2y$10$c0k50jJQP4SCK4pREpiv/eVTegBq0PCPyAlMVDtoBnB9l7uqqy.2a', 'customer'),
-(8, NULL, 'merugudhanyatha@gmail.com', '7801078455', ' Banglore', 'Karnataka', '562102', 120000.00, '461142123499', 'MMZPK0465Z', '$2y$10$hAJFFU3vnOO2DwppO6YCBu.Em98x6nz/vLeW6U8h5RhFuK4ekuuxu', 'customer'),
-(9, NULL, 'merugu@gmail.com', '7801078453', ' Anantapur', 'Andhra Pradesh', '515001', 120000.00, '461142123356', 'MMZPK0434Z', '$2y$10$gYdhFtnYK5DFtMPyzgSdfOHjkCQH6x.Vy9TjDIsB2tM2D0Fyc..D2', 'customer'),
-(10, NULL, 'gkantabtech22@ced.alliance.edu.in', '9748199482', 'Chikahagade Gate Banglore', 'Karnataka', '562104', 120000.00, '471134125623', 'MMZPK0463L', '$2y$10$y2LuNC7dTZL68AlN.8xcluOK1yXA7ElF7IlUYAL//DnRGrPob6AfS', 'customer');
+(1, NULL, 'customer1***@gmail.com', '9876****10', 'Mumbai, India', 'Maharashtra', '400001', 500000.00, '1234********', 'ABCDE1****', 'password123', 'customer'),
+(2, NULL, 'vendor1***@gmail.com', '8765****09', 'Delhi, India', 'Delhi', '110001', 0.00, '5678********', 'XYZDE5****', 'password456', 'vendor'),
+(3, NULL, 'admin1***@gmail.com', '7654****98', 'Bangalore, India', 'Karnataka', '560001', 0.00, '9876********', 'LMNDE9****', 'password789', 'admin'),
+(5, NULL, '***@gmail.com', '7981****01', 'Chikahagade Gate, Bangalore', 'Karnataka', '562106', 120000.00, '4711********', 'MMZPK0****', '[hashed_password]', 'vendor'),
+(7, NULL, '***@pvkkit.ac.in', '7801****33', 'Chikahagade Gate, Bangalore', 'Karnataka', '562106', 120000.00, '4611********', 'MMZPK0****', '[hashed_password]', 'customer'),
+(8, NULL, 'manyatha***@gmail.com', '7801****55', 'Bangalore', 'Karnataka', '562102', 120000.00, '4611********', 'MMZPK0****', '[hashed_password]', 'customer'),
+(9, NULL, 'merugu***@gmail.com', '7801****53', 'Anantapur', 'Andhra Pradesh', '515001', 120000.00, '4611********', 'MMZPK0****', '[hashed_password]', 'customer'),
+(10, NULL, 'gk***@alliance.edu.in', '9748****82', 'Chikahagade Gate, Bangalore', 'Karnataka', '562104', 120000.00, '4711********', 'MMZPK0****', '[hashed_password]', 'customer');
+
 
 --
 -- Indexes for dumped tables
